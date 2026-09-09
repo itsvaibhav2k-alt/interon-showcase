@@ -16,7 +16,7 @@
     "@interon/types": "workspace:*",
     "@interon/ui": "workspace:*",
     "@radix-ui/react-slot": "^1.1.0",
-    "@tanstack/react-query": "^5.56.0",
+    "@tanstack/react-query": "^5.102.8",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "i18next": "^23.15.0",
