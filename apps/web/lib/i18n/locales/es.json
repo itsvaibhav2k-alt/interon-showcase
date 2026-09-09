@@ -1,0 +1,202 @@
+{
+  "common": {
+    "appName": "",
+    "loading": ""
+  },
+  "nav": {
+    "devRole": "",
+    "signIn": "",
+    "signOut": "",
+    "role": {
+      "student": "",
+      "staff": "",
+      "admin": ""
+    },
+    "section": {
+      "dashboard": "",
+      "cases": ""
+    }
+  },
+  "student": {
+    "nav": "",
+    "hello": "",
+    "dashboard": {
+      "subtitle": "",
+      "uploadDocument": ""
+    },
+    "stats": {
+      "activeCase": "",
+      "activeCaseHint": "",
+      "tasksOpen": "",
+      "tasksOpenHint": "",
+      "nextDeadline": "",
+      "deadlineHint": ""
+    },
+    "tasks": {
+      "title": "",
+      "subtitle": "",
+      "start": "",
+      "resume": "",
+      "viewProof": "",
+      "empty": ""
+    },
+    "taskType": {
+      "verify_family_size": "",
+      "verify_identity": "",
+      "upload_tax_return": "",
+      "upload_w2": "",
+      "verify_untaxed_income": "",
+      "verify_high_school_completion": "",
+      "identity_video_call": "",
+      "identity_third_party": ""
+    },
+    "taskStatus": {
+      "not_started": "",
+      "in_progress": "",
+      "submitted": "",
+      "approved": "",
+      "rejected": ""
+    },
+    "awards": {
+      "title": "",
+      "subtitle": ""
+    },
+    "awardKind": {
+      "pell": "",
+      "tops": "",
+      "go_grant": ""
+    },
+    "awardStatus": {
+      "estimated": "",
+      "awarded": "",
+      "disbursed": ""
+    }
+  },
+  "cases": {
+    "errors": {
+      "forbidden": "",
+      "notFound": "",
+      "unknown": "",
+      "rejectReasonPrompt": ""
+    }
+  },
+  "admin": {
+    "nav": "",
+    "hello": "",
+    "cases": {
+      "title": "",
+      "subtitle": "",
+      "exportCsv": "",
+      "column": {
+        "id": "",
+        "student": "",
+        "group": "",
+        "status": "",
+        "assignee": "",
+        "deadline": "",
+        "lastAction": ""
+      },
+      "stat": {
+        "open": "",
+        "inReview": "",
+        "approved": "",
+        "escalated": ""
+      }
+    },
+    "filter": {
+      "group": "",
+      "status": "",
+      "assignee": "",
+      "all": "",
+      "clear": ""
+    },
+    "faDdx": "",
+    "status": {
+      "pending_student": "",
+      "in_review": "",
+      "awaiting_correction": "",
+      "approved": "",
+      "escalated": "",
+      "rejected": ""
+    },
+    "unassigned": "",
+    "case": {
+      "titlePrefix": "",
+      "subtitle": "",
+      "reassign": "",
+      "escalate": "",
+      "approve": "",
+      "notFound": {
+        "title": "",
+        "description": ""
+      },
+      "student": {
+        "ssn": "",
+        "dob": "",
+        "email": "",
+        "phone": "",
+        "enrollment": "",
+        "language": ""
+      },
+      "summary": {
+        "title": "",
+        "status": "",
+        "group": "",
+        "faDdx": "",
+        "identity": "",
+        "assignee": "",
+        "deadline": "",
+        "taxYear": "",
+        "yes": "",
+        "no": ""
+      },
+      "identityMethod": {
+        "in_person": "",
+        "video_call": "",
+        "third_party": "",
+        "incarcerated": ""
+      },
+      "language": {
+        "en": "",
+        "es": "",
+        "vi": ""
+      },
+      "tasks": {
+        "title": "",
+        "subtitle": "",
+        "approve": "",
+        "reject": "",
+        "view": ""
+      },
+      "awards": {
+        "title": ""
+      },
+      "audit": {
+        "title": "",
+        "subtitle": ""
+      }
+    },
+    "taskType": {
+      "verify_family_size": "",
+      "verify_identity": "",
+      "upload_tax_return": "",
+      "upload_w2": "",
+      "verify_untaxed_income": "",
+      "verify_high_school_completion": "",
+      "identity_video_call": "",
+      "identity_third_party": ""
+    },
+    "taskStatus": {
+      "not_started": "",
+      "in_progress": "",
+      "submitted": "",
+      "approved": "",
+      "rejected": ""
+    },
+    "enrollment": {
+      "enrolled": "",
+      "admitted": "",
+      "inactive": ""
+    }
+  }
+}

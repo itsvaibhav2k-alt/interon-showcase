@@ -1,0 +1,202 @@
+{
+  "common": {
+    "appName": "Interon",
+    "loading": "Loading…"
+  },
+  "nav": {
+    "devRole": "Viewing as",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "role": {
+      "student": "Student",
+      "staff": "Staff",
+      "admin": "Admin"
+    },
+    "section": {
+      "dashboard": "Dashboard",
+      "cases": "Cases"
+    }
+  },
+  "student": {
+    "nav": "Student",
+    "hello": "Hello, student",
+    "dashboard": {
+      "subtitle": "Verification status and outstanding tasks",
+      "uploadDocument": "Upload document"
+    },
+    "stats": {
+      "activeCase": "Active cases",
+      "activeCaseHint": "Currently being verified",
+      "tasksOpen": "Open tasks",
+      "tasksOpenHint": "Need your attention",
+      "nextDeadline": "Next deadline",
+      "deadlineHint": "First task due"
+    },
+    "tasks": {
+      "title": "Verification tasks",
+      "subtitle": "Complete each task to keep your aid on track",
+      "start": "Start",
+      "resume": "Resume",
+      "viewProof": "View submission",
+      "empty": "Nothing outstanding — great work."
+    },
+    "taskType": {
+      "verify_family_size": "Verify family size",
+      "verify_identity": "Verify your identity",
+      "upload_tax_return": "Upload tax return",
+      "upload_w2": "Upload W-2",
+      "verify_untaxed_income": "Verify untaxed income",
+      "verify_high_school_completion": "Verify high school completion",
+      "identity_video_call": "Schedule identity video call",
+      "identity_third_party": "Complete third-party identity check"
+    },
+    "taskStatus": {
+      "not_started": "Not started",
+      "in_progress": "In progress",
+      "submitted": "Submitted",
+      "approved": "Approved",
+      "rejected": "Action needed"
+    },
+    "awards": {
+      "title": "Estimated awards",
+      "subtitle": "Award year {{awardYear}}"
+    },
+    "awardKind": {
+      "pell": "Pell Grant",
+      "tops": "TOPS",
+      "go_grant": "GO Grant"
+    },
+    "awardStatus": {
+      "estimated": "Estimated",
+      "awarded": "Awarded",
+      "disbursed": "Disbursed"
+    }
+  },
+  "cases": {
+    "errors": {
+      "forbidden": "You do not have permission to perform this action.",
+      "notFound": "Record not found.",
+      "unknown": "Something went wrong. Try again.",
+      "rejectReasonPrompt": "Reason for rejection?"
+    }
+  },
+  "admin": {
+    "nav": "Admin",
+    "hello": "Hello, admin",
+    "cases": {
+      "title": "Verification cases",
+      "subtitle": "{{count}} cases shown",
+      "exportCsv": "Export CSV",
+      "column": {
+        "id": "Case",
+        "student": "Student",
+        "group": "Group",
+        "status": "Status",
+        "assignee": "Assigned to",
+        "deadline": "Deadline",
+        "lastAction": "Last action"
+      },
+      "stat": {
+        "open": "Open",
+        "inReview": "In review",
+        "approved": "Approved",
+        "escalated": "Escalated"
+      }
+    },
+    "filter": {
+      "group": "Group",
+      "status": "Status",
+      "assignee": "Assignee",
+      "all": "All",
+      "clear": "Clear filters"
+    },
+    "faDdx": "FA-DDX",
+    "status": {
+      "pending_student": "Awaiting student",
+      "in_review": "In review",
+      "awaiting_correction": "Correction pending",
+      "approved": "Approved",
+      "escalated": "Escalated",
+      "rejected": "Rejected"
+    },
+    "unassigned": "Unassigned",
+    "case": {
+      "titlePrefix": "Case",
+      "subtitle": "Group {{group}} • Award year {{awardYear}}",
+      "reassign": "Reassign",
+      "escalate": "Escalate",
+      "approve": "Approve case",
+      "notFound": {
+        "title": "Case not found",
+        "description": "The case you requested does not exist or has been removed."
+      },
+      "student": {
+        "ssn": "SSN",
+        "dob": "Date of birth",
+        "email": "Email",
+        "phone": "Phone",
+        "enrollment": "Enrollment",
+        "language": "Preferred language"
+      },
+      "summary": {
+        "title": "Case summary",
+        "status": "Status",
+        "group": "Group",
+        "faDdx": "FA-DDX populated",
+        "identity": "Identity method",
+        "assignee": "Assigned to",
+        "deadline": "Deadline",
+        "taxYear": "Tax year",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "identityMethod": {
+        "in_person": "In-person verification",
+        "video_call": "Video call",
+        "third_party": "Third-party (Persona/Stripe)",
+        "incarcerated": "Facility attestation"
+      },
+      "language": {
+        "en": "English",
+        "es": "Spanish",
+        "vi": "Vietnamese"
+      },
+      "tasks": {
+        "title": "Verification tasks",
+        "subtitle": "Review submissions and approve or request corrections",
+        "approve": "Approve",
+        "reject": "Reject",
+        "view": "View"
+      },
+      "awards": {
+        "title": "Aid awards"
+      },
+      "audit": {
+        "title": "Audit log",
+        "subtitle": "Per-action immutable record"
+      }
+    },
+    "taskType": {
+      "verify_family_size": "Family size",
+      "verify_identity": "Identity",
+      "upload_tax_return": "Tax return",
+      "upload_w2": "W-2",
+      "verify_untaxed_income": "Untaxed income",
+      "verify_high_school_completion": "High school completion",
+      "identity_video_call": "Identity video call",
+      "identity_third_party": "Third-party identity"
+    },
+    "taskStatus": {
+      "not_started": "Not started",
+      "in_progress": "In progress",
+      "submitted": "Submitted",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "enrollment": {
+      "enrolled": "Enrolled",
+      "admitted": "Admitted",
+      "inactive": "Inactive"
+    }
+  }
+}

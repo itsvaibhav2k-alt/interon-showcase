@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/db": ["./packages/db/src/index.ts"],
+      "@/db/*": ["./packages/db/src/*"],
+      "@/ui": ["./packages/ui/src/index.ts"],
+      "@/ui/*": ["./packages/ui/src/*"],
+      "@/types": ["./packages/types/src/index.ts"],
+      "@/types/*": ["./packages/types/src/*"]
+    }
+  }
+}

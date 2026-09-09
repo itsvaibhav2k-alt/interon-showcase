@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "plugins": [{ "name": "next" }],
+    "baseUrl": ".",
+    "paths": {
+      "@/db": ["../../packages/db/src/index.ts"],
+      "@/db/*": ["../../packages/db/src/*"],
+      "@/ui": ["../../packages/ui/src/index.ts"],
+      "@/ui/*": ["../../packages/ui/src/*"],
+      "@/types": ["../../packages/types/src/index.ts"],
+      "@/types/*": ["../../packages/types/src/*"],
+      "@/lib/*": ["./lib/*"],
+      "@/app/*": ["./app/*"],
+      "@/components/*": ["./components/*"]
+    },
+    "incremental": true,
+    "allowJs": true,
+    "noEmit": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
